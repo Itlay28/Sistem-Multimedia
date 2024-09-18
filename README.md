@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,6 +13,10 @@
                 <div class="form-group">
                     <label for="name">Nama :</label>
                     <input type="text" class="form-control" placeholder="Name" name="nama" required>
+                </div>
+                <div class="form-group">
+                    <label for="nim">NiM :</label>
+                    <input type="text" class="form-control" placeholder="nim" name="NIM" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email :</label>
@@ -34,13 +37,5 @@
             </div>
         </form>
     </div>
-
-    <footer class="text-light text-center py-4 mt-5" style="background-color: darkblue;">
-        <div class="container">
-            <p class="mb-0"><strong> NAMA</strong> | <strong> NIM </strong></p>
-        </div>
-    </footer>
-    
-
 </body>
 </html>
